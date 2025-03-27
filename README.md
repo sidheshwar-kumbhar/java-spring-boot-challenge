@@ -17,7 +17,7 @@
 •	Used lock per account to avoid deadlock. Used acquire locks in the same order always.
 •	After successful transfer is made, a notification sent to both account holders, with a message containing id of the other account and amount transferred.
 
-![Solution Design](https://github.com/sidheshwar-kumbhar/java-spring-boot-challenge/main/amount-tranfer.jpg?raw=true)
+![Solution Design](https://github.com/sidheshwar-kumbhar/java-spring-boot-challenge/blob/main/amount-tranfer.jpg?raw=true)
 
 --
 
