@@ -49,7 +49,7 @@ public class AccountsController {
 	}
 
 	/**
-	 * This function is used to transfer amount for account to account. The amount
+	 * This function is used to transfer amount form account to account. The amount
 	 * to transfer should always be a positive number. All exception handling with
 	 * spring global exception handler. Validate request by using @Valid
 	 * 
@@ -66,7 +66,7 @@ public class AccountsController {
 		log.info("Transfer amount for {} account to {} account", transferAmount.getAccountFromId(),
 				transferAmount.getAccountToId());
 
-		// Transfer amount for account to account. All exception handling with spring
+		// Transfer amount form account to account. All exception handling with spring
 		// global exception handler.
 		accountsService.transfer(transferAmount.getAccountFromId(), transferAmount.getAccountToId(),
 				transferAmount.getAmount());
